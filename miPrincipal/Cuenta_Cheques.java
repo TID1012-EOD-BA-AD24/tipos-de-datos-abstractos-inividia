@@ -50,7 +50,7 @@ public Cuenta_Cheques(String nombreCuenta, String nombreCliente, String sucursal
     this.saldo = saldo;
 }
    
- // Método para depositar dinero
+ // Metodo para depositar dinero
  public float deposito(float cantidad) {
    if (cantidad > 0) {
        this.saldo += cantidad;
